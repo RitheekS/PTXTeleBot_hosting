@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ptx-tshirt-001",
+    "name": "PTX T-Shirt",
+    "description": "Premium cotton T-Shirt with the official PTX.network logo. Comfortable, breathable, and perfect for the crypto community.",
+    "price": 5000,
+    "image_url": "https://via.placeholder.com/400x400/1a1a2e/e94560?text=PTX+T-Shirt",
+    "variants": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "ptx-hoodie-001",
+    "name": "PTX Hoodie",
+    "description": "Cozy premium hoodie featuring the PTX.network branding. Stay warm while staying decentralized.",
+    "price": 12000,
+    "image_url": "https://via.placeholder.com/400x400/16213e/0f3460?text=PTX+Hoodie",
+    "variants": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "ptx-cap-001",
+    "name": "PTX Cap",
+    "description": "Stylish snapback cap with embroidered PTX.network logo. One size fits all.",
+    "price": 4000,
+    "image_url": "https://via.placeholder.com/400x400/1a1a2e/e94560?text=PTX+Cap",
+    "variants": ["One Size"]
+  }
+]

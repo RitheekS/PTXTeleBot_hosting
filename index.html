@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="PTX.network Official Merchandise Shop">
+    <title>PTX Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="shop-header">
+        <div class="header-content">
+            <h1>🛍️ PTX Shop</h1>
+            <button class="cart-btn" id="cartToggle" aria-label="View Cart">
+                <span class="cart-icon">🛒</span>
+                <span class="cart-badge" id="cartBadge">0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Product Grid -->
+    <main class="products-container" id="productsContainer">
+        <!-- Products rendered by JS -->
+        <div class="loading-spinner" id="loadingSpinner">
+            <div class="spinner"></div>
+            <p>Loading products...</p>
+        </div>
+    </main>
+
+    <!-- Cart Drawer Overlay -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <aside class="cart-drawer" id="cartDrawer">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button class="cart-close-btn" id="cartClose" aria-label="Close Cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items rendered by JS -->
+        </div>
+        <div class="cart-empty" id="cartEmpty">
+            <p>🛒 Your cart is empty</p>
+        </div>
+        <div class="cart-footer" id="cartFooter">
+            <div class="cart-total">
+                <span>Total</span>
+                <span id="cartTotal">RM 0.00</span>
+            </div>
+        </div>
+    </aside>
+
+    <script src="app.js"></script>
+</body>
+</html>
